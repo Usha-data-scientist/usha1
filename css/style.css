@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body {
+    font-family: Tahoma;
+}
+.hero{
+position: absolute;
+width: 1140px;
+top: 40%;
+left: 15%;
+transform: (50% ,50%);
+}
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/foodie.jpg);
+   
+    height: 100vh; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    }
+h1{
+    color: white;
+}
+.main_nav{
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+
+}
+.main_nav li{
+    margin: 20px;
+    display: inline;
+    
+}
+.main_nav li a{
+    color: white;
+   text-decoration: none;
+   font-size: 90%;
+   font-weight: bold;
+}
+.main_nav li a:hover{
+    color: #e76e22;
+    border-bottom: 2px solid #e76e22;
+    transition: all o.5s ease-in;
+    padding: 5px 0;
+}
+.logo img{
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+}
+.btn{
+border: 1px solid #e76e22;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 15px;
+    border-radius: 12px;
+    color: #e76e22;
+}
+.button-awsome{
+    margin-top: 40px;
+}
+.btn-half:hover{
+ background-color: #e76e22;
+ color: white;
+}
+.btn-full:hover{
+    background-color: #e76e22;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+.copy{
+    margin-left: 15%;
+    width: 70%;
+    margin-bottom: 20px;
+}
+h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: #e76e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.features h3
+{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.arraing{
+text-align: justify;
+}
+.features i{
+    font-size: 40px;
+    margin-left: 35%;
+    color: #e76e22;
+}
+.features h4{
+    margin-left: 40px;
+}
+.meal-showcase{
+    list-style: none;
+    width: 120%;
+    
+}
+.meal-showcase li{
+    display: block;
+    width: 25%;
+    float: left;
+    
+}
+.meal-pic{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.meal-pic img{
+    width: 100%;
+    height: 20%;
+   
+    transform: scale(1.15);
+    transition: all 0.5s;
+    
+  
+}
+.meal-pic img:hover{
+transform: scale(1.05);
+} 
+.meal{
+    margin-top: 60px;
+    max-width: 85%;
+    
+}  
+.pic img{
+    margin-left: 50%;
+    margin-top: 50px;
+}
+.WORKS-steps{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.WORKS-steps div{
+    border: 1px solid #e76e22;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+
+}
+.WORKS-steps img{
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 15px;  
+
+}
+.clearfix{
+    zoom: 1;
+    }
+    
+
+.mobile{
+    margin-top: 60px;
+}
+
+.cities{
+    margin-top: 40px;
+}
+.cities img{
+    width: 100%;
+    margin-top: 40px;
+}
+.cities i{
+    color: #e76e22;
+}
+.TESTIMONIALS{
+    margin-top: 60px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../img/background2.jpeg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-attachment: fixed;
+    color: white;
+}
+.TESTIMONIALS p{
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.TESTIMONIALS cite img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.btn-block{
+    background-color: #e76e22;
+    color: #fff;
+    border-radius:4px;
+    margin-top: 20px;
+}
+.gap{
+    margin-top: 40px;
+}
+.form{
+    margin-top: 40px;
+}
